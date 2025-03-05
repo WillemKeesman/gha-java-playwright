@@ -1,0 +1,18 @@
+name: Exercise_one
+
+on:
+  workflow_call:
+    inputs:
+      username:
+        description: 'Let's print a username'
+        default: 'Keesman'
+        required: false
+        type: string
+
+jobs:
+  print-username:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Print the input name
+        run: I for one welcome, ${{ inputs.username }}
