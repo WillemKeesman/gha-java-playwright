@@ -1,5 +1,4 @@
-name: Run Playwright tests
-
+name: Cache dependencies
 on: push
 
 jobs:
