@@ -4,8 +4,8 @@ on:
   workflow_call:
     inputs:
       username:
-        description: 'Let's print a username'
-        default: 'Keesman'
+        description: Lets print a username
+        default: Keesman
         required: false
         type: string
 
